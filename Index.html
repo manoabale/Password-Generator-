@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Password Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Password Converter</h1>
+
+    <input type="text" id="password" placeholder="Enter password">
+
+    <button id="convertBase64">Convert to Base64</button>
+    <button id="convertSHA">Convert to SHA-256</button>
+
+    <h3>Password Strength: <span id="strength">—</span></h3>
+
+    <h3>Base64:</h3>
+    <p id="base64Result">—</p>
+
+    <h3>SHA-256:</h3>
+    <p id="shaResult">—</p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
